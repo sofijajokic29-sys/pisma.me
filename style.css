@@ -1,0 +1,30 @@
+body {
+  font-family: serif;
+  text-align: center;
+  background: #fff7fb;
+}
+
+.envelope {
+  width: 220px;
+  margin: 20px auto;
+  padding: 25px;
+  background: #ffe4ec;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.envelope:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+#letter {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
