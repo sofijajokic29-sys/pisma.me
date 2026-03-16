@@ -1,27 +1,42 @@
-<h1>Choose your letter 💌</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Maturska pisma 💌</title>
+
+  <!-- connects CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Izaberi svoj 💌</h1>
 
 <div class="envelope" onclick="openEnvelope('caki')">
   💌 to: Caki
 </div>
 
-<div class="envelope" onclick="openEnvelope('ana')">
+<div class="envelope" onclick="openEnvelope('lana')">
   💌 to: Lana
 </div>
 
-<div class="envelope" onclick="openEnvelope('luka')">
+<div class="envelope" onclick="openEnvelope('sara')">
   💌 to: Sara
 </div>
 
-<div class="envelope" onclick="openEnvelope('luka')">
+<div class="envelope" onclick="openEnvelope('elena')">
   💌 to: Elena
 </div>
 
-<!-- password popup -->
 <div id="passwordBox" class="hidden">
-  <input type="password" id="passwordInput"
-         placeholder="Enter password">
+  <input type="password" id="passwordInput" placeholder="Enter password">
   <button onclick="checkPassword()">Open Letter</button>
 </div>
 
-<!-- letter -->
 <div id="letter" class="hidden"></div>
+
+<!-- connects JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
